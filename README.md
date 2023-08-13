@@ -26,6 +26,6 @@ run the commands below
    Boom your done!
 
 # Live preview here -
-<a href="" target="_blank">
-http://
+<a href="https://blaze-file-editor-app.onrender.com/" target="_blank">
+https://blaze-file-editor-app.onrender.com/
 </a>
