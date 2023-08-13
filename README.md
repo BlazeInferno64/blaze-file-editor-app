@@ -8,7 +8,7 @@ To Install the dependecies of this app
 
 run the commands below
 
-1. It needs Express as it's backend server framework so up your terminal and paste the follwing commands
+1. It needs Express as it's backend server framework so open up your terminal and paste the follwing commands
 
 2. ```
    npm i express -g
