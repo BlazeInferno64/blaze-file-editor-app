@@ -22,4 +22,5 @@ run the commands below
    npm run devStart
    ```
    Congrats your app shoudl be available on http://localhost:80/
+<br>
    Boom your done!
