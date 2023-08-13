@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300&display=swap');
 *,
 *::after,
 *::before{
@@ -481,6 +482,12 @@ option{
     position: fixed;
     font-size: 1.2rem;
     bottom: -100%;
+}
+.check{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 5px;
 }
 .close{
     display: flex;
