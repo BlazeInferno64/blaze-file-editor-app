@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="black">
+    <title>Blaze All-In-One Editor</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="https://avatars.githubusercontent.com/u/96913755?v=4" type="image/x-icon"/>
+    <script src="https://kit.fontawesome.com/f3220d5256.js" crossorigin="anonymous"></script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2604597246009301"
+    crossorigin="anonymous"></script>
+    <!-- <link rel="stylesheet" href="./public/css/styles.css" />-->
+</head>
+<body>
+    <div class="user-prompt" id="prompt">
+        <div class="join-card">
+            <p id="head">
+                Welcome to Blaze Editor
+            </p>
+            <p id="p1">
+                Please enter a username to continue
+            </p>
+            <div class="name-part">
+                <div class="input">
+                    <label for="field" class="label flex">
+                        Your username:
+                    </label>
+                    <input type="text" spellcheck="false" class="field" placeholder="Type your name here..."/>
+                </div>
+                <button class="join-btn no-event">
+                    <span></span>
+                    <i class="fa fa-send"></i>  Continue to Editor
+                    <span></span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <div class="card">
+        <div class="header">
+            <p>
+                Blaze Editor
+            </p>
+            <div class="menu" id="menu">
+                <span></span>
+                <div class="dot1"></div>
+                <div class="dot2"></div>
+                <div class="dot3"></div>
+                <span></span>
+            </div>
+        </div>
+
+        <div class="list none">
+            <span class="top-text">
+                Actions
+            </span>
+            <ul>
+                <li id="copy">
+                    <span></span>
+                    <i class="fa fa-clone"></i>  Copy Text
+                    <span></span>
+                </li>
+                <li id="reset"> 
+                    <span></span>
+                    <i class="fa fa-redo"></i>  Reset Text Field
+                    <span></span>
+                </li>
+                <li id="log">
+                    <span></span>
+                    <i class="fa fa-power-off"></i>  Log Out
+                    <span></span>
+                </li>
+            </ul>
+        </div>
+
+        <div class="text-part">
+            <form action="#" id="forms">
+                <div class="txt">
+                    <label for="input-field" class="label">
+                        Write your text here
+                    </label>
+                    <textarea name="Text" spellcheck="false" id="input" class="input-field" placeholder="Type your Text Here..."></textarea>
+                    <div class="limit">
+                        <p id="">Total Words :</p>
+                        <p id="lim">0 Words</p>
+                    </div>
+                </div>
+                <div class="opt">
+                    <div class="save">
+                        <label for="save-field" class="label">
+                            Save As
+                        </label>
+                        <input type="text" spellcheck="false" class="save-field" placeholder="Name of your file..." />
+                    </div>
+                    <div class="ext">
+                        <label for="extension" class="label1">
+                            Extension
+                        </label>
+                        <select name="Extension" id="ext" class="ext-name">
+                            <option value="txt">.txt</option>
+                            <option value="html">.html</option>
+                            <option value="css">.css</option>
+                            <option value="js">.js</option>
+                            <option value="json">.json</option>
+                            <option value="all files">All Files</option>
+                        </select>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="more">
+            <div class="check">
+                <input type="checkbox" name="Choice" id="check" checked/> Save to localstorage
+            </div>  
+            <button class="btn no-event">
+                <span></span>
+               <i class="fa fa-download"></i>  Save My File
+                <span></span>
+            </button>
+        </div>
+    </div>
+
+    <div class="alert">
+        <p id="info">
+            Info
+        </p>
+        <span class="close" id="close1">
+            <span></span>
+            &times;
+            <span></span>
+        </span>
+    </div>
+
+    <div class="progress">
+        <span class="info">
+            <label for="fluid">
+                Coverting...
+            </label>
+            <p id="show" class="show">
+                50%
+            </p>
+        </span>
+        <div class="bar">
+            <div class="fluid"></div>
+        </div>
+    </div>
+    <script defer src="js/script.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+</body>
+</html>
